@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EMS_BusinessEntity\EMS_BusinessEntity.csproj" />
+    <ProjectReference Include="..\EMS_New.DataEntity\EMS_New.DataEntity.csproj" />
+  </ItemGroup>
+
+</Project>
